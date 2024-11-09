@@ -78,3 +78,5 @@ if uploaded_file:
     st.write("ค่าใช้จ่ายทั้งหมด:", pulp.value(problem.objective))
     st.write("ตารางผลลัพธ์")
     st.dataframe(results_df)
+pip install streamlit
+streamlit run app.py
